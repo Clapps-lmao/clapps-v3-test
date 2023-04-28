@@ -1,0 +1,313 @@
+@import url('https://fonts.cdnfonts.com/css/gg-sans-2');
+
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+@media (max-width: 600px) {
+    body {
+      width: auto;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 601px) {
+    body {
+      max-width: 100w;
+      height: 70vh;
+    }
+  }
+
+html {
+
+    min-zoom: 100%;
+    max-zoom: 100%;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    align-content: center;
+    text-align: center;
+    -webkit-align-content: center;
+    background-color: black;
+    text-decoration: none;
+
+}
+
+.Main-box {
+    height: 70vh;
+    width: 35vw;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0), rgba(107, 0, 187, 0.58), rgba(107, 0, 187, 0.58));
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), #000000, rgba(107, 0, 187, 0.58), rgba(107, 0, 187, 0.58));
+    box-shadow: 0px 10px 10px 5px rgba(115, 0, 255, 0.09);
+    aspect-ratio: 1 / 1;
+    border-radius: 15px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.upper-section {
+    position: relative;
+    width: 35vw;
+    height: 35vh;
+
+
+
+}
+.profile-photo {
+    position: relative;
+    top: 45%;
+    transform: translate(5%, 50%);
+    height: 14vh;
+    width: 14vh;
+    border-radius: 90px;
+    background-image: url("https://raw.githubusercontent.com/Clapps-lmao/clapps/main/ec9bf505bbd01f50b93615b783d49dd7.png");
+    background-size: cover;
+    border-color: black;
+    border: 5px solid black;
+}
+
+.gif-rectangle {
+    display: flex;
+    min-width: 35vw;
+    min-height: 25vh;
+    background-image: url("https://i.imgur.com/2UdjtkR.gif");
+    background-size: cover;
+    align-items: flex-end;
+    border-radius: 20px;
+}
+
+.dnd-circle {
+    position: absolute;
+    transform: translate(-0%, -0%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 10px;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+    border-radius: 90px;
+    border: 5px solid black;
+}
+.dnd-rectangle {
+    position: relative;
+    transform: translate(50%, -0%);
+    background-color: black;
+    width: 8px;
+    height: 30px;
+    border-radius: 5px;
+    rotate: 90deg;
+}
+
+
+.badges {
+    position: absolute;
+    border-radius: 60px;
+    max-height: 3vh;
+    max-width: 80vw;
+    left: 27%;
+    transform: translateY(-50%);
+    bottom: 9%;
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+.badges-row {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-content: start;
+    align-items: center;
+    max-width: 100%;
+    max-height: 29px;
+}
+
+.inner-badges {
+    display: table-row;
+    height: 28px;
+    width: 103px;
+    padding: 5px 5px 5px;
+}
+
+.badge-hypesquad {
+    position: inherit;
+    width: 1.2em;
+    padding-top: 0.25em;
+    margin-left: -78%;
+
+}
+
+.badge-nitro {
+    position: fixed;
+    right: 46.01%;
+    bottom: -10px;
+    width: 2em;
+}
+.badge-booster {
+    position: fixed;
+    right: 20%;
+}
+
+
+
+
+.lower-half {
+    min-width: 35vw;
+    min-height: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.inner-lower-half {
+    display: flex;
+    position: relative;
+    transform: translate(-50%, -0%);
+    right: -45%;
+    background-color: rgba(0, 0, 0, 0.3);
+    min-width: 32vw;
+    min-height: 33vh;
+    border-radius: 9px;
+    text-align: start;
+    font-family: "gg sans";
+    letter-spacing: 1px;
+    font-size: 1vmax;
+    width: 90%;
+    margin-top: 0.09em;
+    overflow-y: auto;
+
+}
+
+
+
+.clapps-title-name {
+    color: white;
+    text-indent: 15px;
+    max-height: 20px;
+}
+.clapps-title-number-tag {
+    color: #b5bac1;
+    max-height: 20px;
+}
+.line {
+    position: absolute;
+    background-color: #484848;
+    width: 31vw;
+    min-height: 0.1vh;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    border-radius: 20px;
+}
+
+.line-2 {
+    position: absolute;
+    background-color: #484848;
+    width: 30vw;
+    left: 50%;
+    min-height: 0.1vh;
+    transform: translate(-50%, -60%);
+    padding-bottom: 0px;
+    border-radius: 20px;
+}
+
+.inner-lower-half-content {
+    position: absolute;
+    display: flex;
+    bottom: 0%;
+    left: 2%;
+    min-height: 26vh;
+    min-width: 31vw;
+    font-size: 1vmax;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: calc(50vh - 55px);
+
+}
+
+.About-Me-Text {
+    font-family: "gg sans";
+    font-size: 0.6vmax;
+    color: white;
+    margin-top: 12px;
+    margin-left: 12px;
+    height: 15px;
+
+}
+.socials-rows {
+    padding-top: 20px;
+    display: flex;
+    max-width: 31vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.note {
+    font-family: "gg sans Normal";
+    font-size: 0.5vmax;
+    color: white;
+    margin-top: 12px;
+    margin-left: 12px;
+    height: 15px;
+
+}
+.About-Me {
+    height: 25px;
+}
+
+.about-me-inner-text {
+    font-family: "gg sans Normal";
+    color: white;
+    font-size: 15px;
+    height: 15vh;
+    font-size: 0.8vmax;
+}
+
+.spotify {
+    position: relative;
+    display: flex;
+    height: 45px;
+    width: 250px;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: "gg sans";
+    font-size: 20px;
+}
+
+.spotify-img {
+    position: absolute;
+    width: 1.4em;
+    left: 10%;
+}
+
+
+
+.share-spotify:hover {
+    cursor: pointer;
+}
+
+.new-tab-spotify {
+    position: absolute;
+    right: 10%;
+    padding-top: 5px;
+    scale: 80%;
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
