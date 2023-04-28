@@ -8,12 +8,12 @@
 @media (max-width: 600px) {
 
     body {
-        width: 600px!important;
+        width: 400px!important;
         height: auto;
     }
 
     .Main-box {
-        width: 70%!important;
+        width: 90%!important;
         height: auto;
     }
   }
